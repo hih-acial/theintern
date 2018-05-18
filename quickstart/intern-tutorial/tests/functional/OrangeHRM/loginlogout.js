@@ -17,13 +17,13 @@ suite('OrangeHRM', () => {
             .type('acial$2017')
             .end()
             .findById('btnLogin')
-		 .click()
+		        .click()
             .end()
             .findById('welcome')
             .getVisibleText()
             .then((text) => {
-				console.log (text);
-                assert.strictEqual(text, 'Welcome Admin');
+				          console.log (text);
+                  assert.strictEqual(text, 'Welcome Admin');
             });
     });
   test('logout', ({ remote }) => {
@@ -33,7 +33,22 @@ suite('OrangeHRM', () => {
             .click()
             .end()
             .findByLinkText('Logout')
-			.click()
+			      .click()
             .end()
+            .findById('txtUsername')
+            .isDisplayed()
+            .then((visible) => {
+				          console.log (visible);
+                  assert.strictEqual(visible,true);
+            })
+           .end()
+           .findById('btnLogin')
+           .getAttribute('value')
+           .then((loginvalue) => {
+                 console.log (loginvalue);
+                 assert.strictEqual(loginvalue,"LOGIN");
+           })
+          .end()
+
     });
 });
