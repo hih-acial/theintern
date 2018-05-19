@@ -1,3 +1,4 @@
+var keys = require('@theintern/leadfoot/keys').default;
 const { suite, test, before } = intern.getInterface('tdd');
 const { assert } = intern.getPlugin('chai');
 
@@ -14,15 +15,16 @@ suite('index', () => {
             .findById('lst-ib')
             .click()
             .type('Acial')
+			.pressKeys(keys.TAB)
             .end()
-            .findByCssSelector('#sbtc > div.gstl_0.sbdd_a > div:nth-child(2) > div.sbdd_b > div > ul > li:nth-child(11) > div > span:nth-child(1) > span > input')
+            .findByName('btnK')
             .click()
             .end()
-            .findByCssSelector('#rso > div > div > div:nth-child(1) > div > div > h3 > a')
+            .findByXpath("//a[contains(text(),'Formation | Acial')]")
             .getVisibleText()
             .then((text) => {
 				console.log(text);
-                assert.strictEqual(text, 'ACIAL : Le spécialiste du mobilier métallique pour tous les secteurs de ...');
+                assert.strictEqual(text, 'Formation | Acial');
             });
     });
 });

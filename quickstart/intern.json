@@ -1,17 +1,5 @@
 { 
-"functionalSuites": "tests/functional/**/*.js",
-"browser": { 
-	"loader": { "script": "systemjs" }, 
-	
-
-	"plugins": { "script": "_dist/src/system.config.js", 
-				"useLoader": true 
-				} 
-	}, 
-	"environments": [  "node", 
-				{ "browserName": "chrome" } ],
-	"tunnelOptions": {
-			"drivers": [
-				{ "name": "chrome", "version": "2.37" } ]
-	}		 
+	"functionalSuites": "tests/functional/**/*.js",
+	"environments": [  "node", { "browserName": "chrome" } ],
+	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.37" }]}
 }
