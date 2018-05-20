@@ -12,3 +12,11 @@ Après installation le contenu du répertoire est le suivant :
 
 Lancer les tests dans le répertoire Formation\theintern\quickstart
   ..\node_modules\.bin\intern
+
+
+Installer le pluggin  Quokka
+
+Doc theintern.io
+https://theintern.io/docs.html#Intern/4/docs/README.md
+Doc leadfoot
+https://theintern.io/leadfoot/module-leadfoot_Element.html
