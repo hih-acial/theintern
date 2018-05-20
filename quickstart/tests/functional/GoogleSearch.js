@@ -2,7 +2,7 @@ var keys = require('@theintern/leadfoot/keys').default;
 const { suite, test, before } = intern.getInterface('tdd');
 const { assert } = intern.getPlugin('chai');
 
-suite('index', () => {
+suite('googleSearch', () => {
     before(({ remote }) => {
         return remote
             .get('https://www.google.fr/')
