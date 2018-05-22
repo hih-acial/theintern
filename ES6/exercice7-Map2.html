@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script>
+    class Personne {
+      constructor (val1, val2, val3) {
+        this.lastname = val1;
+        this.firstname = val2;
+        this.profession = val3;
+      }
+      fullname () {return (this.lastname + ' ' + this.firstname)}
+    }
+
+    // ES6 code here
+    var personnes = new Map();
+
+    let p1 = new Personne ("Hassan", "IMHAH", "Medecin");
+    let p2 = new Personne ("Eric", "Elliott", "Writer");
+    personnes.set ('IMHAH', p1);
+    personnes.set ('Elliott', p2);
+    console.log(personnes);
+
+
+  </script>
+  <title>ES6 practice</title>
+</head>
+<body>
+</body>
+</html>

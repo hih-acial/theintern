@@ -12,11 +12,16 @@
     books.set ('Eric Elliott', 'Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Moderns JS Libraries');
     books.set ('David Herman', 'Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript');
 
-    var booksIter = books.entries();
-    console.log (booksIter);
-    console.log (booksIter.next());
-    console.log (booksIter.next().value);
-
+/*
+    books.forEach (function(val1, val2) {
+      console.log("value : " + val1);
+      console.log("key :" + val2);
+    })
+*/
+    let booksIter = books.entries();
+    for (let i=0; i<books.size; i++) {
+      console.log (booksIter.next().value);
+    }
   </script>
   <title>ES6 practice</title>
 </head>

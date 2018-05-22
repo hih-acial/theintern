@@ -6,6 +6,7 @@
 
     // ES6 code here
     class Personne {
+
       constructor (val1, val2, val3) {
         this.lastname = val1;
         this.firstname = val2;
@@ -14,10 +15,13 @@
       fullname () {
         return (this.lastname + ' ' + this.firstname);
       }
+      
     }
 
 
     let moi = new Personne ("Hassan", "IMHAH", "Medecin");
+    moi.genre='masculin';
+    console.log("moi  "+ moi)
 
     class Informaticien extends Personne {
       constructor (nom, prenom, langage) {

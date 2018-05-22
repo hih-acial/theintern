@@ -3,14 +3,17 @@
 <head>
   <script>
 
-
+    var fruits = ['bananes', 'pommes'];
     // ES6 code here
     function* steps () {
-      console.log("step 1");
+
+      fruits.push("fraises");
+
       yield;
-      console.log("step 2");
+      fruits.push("cerises");
+
       yield;
-      console.log("step 3");
+      fruits.push("oranges");
       yield;
       console.log("step 4");
       yield;
@@ -18,10 +21,14 @@
     }
 
     let stepsIter = steps();
+
+    stepsIter.next();
+    console.log(fruits);
+    stepsIter.next();
+    console.log(fruits);
+    stepsIter.next();
+    console.log(fruits);
 /*
-    stepsIter.next();
-    stepsIter.next();
-*/
     var handle = setInterval(function(){
       var step = stepsIter.next();
       if (step.done){
@@ -31,7 +38,7 @@
         step;
       }
     }, 1000);
-
+*/
 
   </script>
   <title>ES6 generators</title>

@@ -11,14 +11,16 @@
     books.set ('Douglas Crockford', 'JavaScript: The Good Parts');
     books.set ('Eric Elliott', 'Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Moderns JS Libraries');
     books.set ('David Herman', 'Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript');
-    console.log(books);
+    books.set ('David Herman', 'Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript');
+    /* console.log(books);
     console.log(books.size);
 
     console.log(books.get('Nick Morgan'));
-
-    books.forEach (function(value, key) {
-      console.log(key);
-      console.log(value);
+*/
+    books.forEach (function(val1, val2, val3) {
+      console.log("value : " + val1);
+      console.log("key :" + val2);
+      console.log("map :" + val3);
     })
 
 
