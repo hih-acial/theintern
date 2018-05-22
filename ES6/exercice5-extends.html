@@ -5,33 +5,37 @@
 
 
     // ES6 code here
-
     class Personne {
-      constructor (genre, age) {
-        this.genre = genre;
-        this.age = age
+      constructor (val1, val2, val3) {
+        this.lastname = val1;
+        this.firstname = val2;
+        this.profession = val3;
       }
-      courrir () {
-        console.log (" Je cours ");
+      fullname () {
+        return (this.lastname + ' ' + this.firstname);
       }
     }
 
-    let moi = new Personne ("homme", 26);
-    console.log(moi);
-    moi.courrir();
+
+    let moi = new Personne ("Hassan", "IMHAH", "Medecin");
 
     class Informaticien extends Personne {
-      constructor (langage) {
-        super ("femme", 26);
+      constructor (nom, prenom, langage) {
+        super (nom, prenom, "Informaticien");
         this.langage = langage;
       }
     }
-    var phpDev = new Informaticien ("php");
-    console.log(phpDev);
-    console.log(phpDev.__proto__);
-    console.log(phpDev.__proto__.__proto__);
+    var phpDev = new Informaticien ("IMHAH", "Hassan", "javascript");
 
-
+    class InformaticienBack extends Informaticien {
+      constructor (nom, prenom, anciennete) {
+        super (nom, prenom, "nodejs");
+        this.anciennete = anciennete;
+      }
+    }
+    var backDev = new InformaticienBack ("IMHAH", "Hassan", 2);
+    var ret = backDev.fullname();
+    console.log(ret);
   </script>
   <title>ES6 practice</title>
 </head>
