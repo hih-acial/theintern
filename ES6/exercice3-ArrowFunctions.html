@@ -2,29 +2,33 @@
 <html>
 <head>
   <script>
-
-
+/*
+    var name='nouveau nom';
     // ES6 code here
     var dog = {
-		name:"le chien",
-		toys:["baton", "balle"],
-		getToys: function(){
-			var self = this;
-			this.toys.forEach(function(toy){
-				var sentence=self.name+" joue avec 1 " + toy;
-				console.log(sentence);
-			})
-		}
-	};
-	dog.getToys();
+		    name:"le chien",
+		    toys:["baton", "balle"],
+		    getToys: function(){
+			       var thisDog = this;
+			       thisDog.toys.forEach((toy)=>{
+				          var sentence=thisDog.name+" joue avec 1 " + toy;
+				          console.log(sentence);
+			       })
+		    }
+	 };
+	 dog.getToys();
+*/
 
+  var name="le nouveau chien";
+  var toys= ["jouet1", "jouet2"];
 	var dog2 = {
 		name:"le chien",
 		toys:["baton", "balle"],
-		getToys: function(){
-			this.toys.forEach((toy) =>{
-				var sentence=this.name+" joue aussi avec 1 " + toy;
-				console.log(sentence);
+		getToys:  function () {
+			   this.toys.forEach(   (toy) => {
+          console.log(this.toys);
+				  var sentence=this.name+" joue aussi avec 1 " + toy;
+				  console.log(sentence);
 			})
 		}
 	};
