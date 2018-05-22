@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+
+    // ES6 code here
+    var fruits = ["bananes", "pommes"];
+    var vegetables = ["poireaux", "patates"];
+    var food = [fruits, vegetables];
+    // console.log ("food   = " );
+    // console.log (food);
+    /*
+        Array(2)
+        0    :    (2) ["bananes", "pommes"]
+        1    :    (2) ["poireaux", "patates"]
+        */
+        var food2 = [...fruits, ...vegetables];
+        // console.log ("food2  = " );
+        // console.log (food2);
+        // ["bananes", "pommes", "poireaux", "patates"]
+
+        var mixer = function(ingredient1, ingredient2) {
+            console.log("mélanger " + ingredient1 + " avec " +  ingredient2);
+        }
+        // console.log ("function mixer = " );
+        // console.log (mixer ("bananes","pommes"));
+        // mélanger bananes avec pommes
+
+        var ingredients = ["bananes","pommes"];
+        // console.log (mixer (ingredients));
+        // mélanger bananes,pommes avec undefined
+
+        // console.log (mixer (...ingredients));
+        // mélanger bananes avec pommes
+
+        var mixer2 = function() {
+            console.log(arguments);
+        }
+        // mixer2("valeur1", "valeur2", "valeur3");
+        // Arguments(3) ["valeur1", "valeur2", "valeur3" mais ce n'est pas un tableau
+        var mixer3 = function() {
+            console.log(arguments.join(" - "));
+        }
+        // mixer3("valeur1", "valeur2", "valeur3");
+        // Uncaught TypeError: arguments.join is not a function
+
+        var mixer4 = function(...elements) {
+            console.log(elements.join(" - "));
+        }
+        mixer4("valeur1", "valeur2", "valeur3");
+        // valeur1 - valeur2 - valeur3
+        mixer4("valeur1", "valeur2", "valeur3", "valeur4", "valeur5");
+        // valeur1 - valeur2 - valeur3 - valeur4 - valeur5
+
+
+  </script>
+  <title>ES6 practice</title>
+</head>
+<body>
+</body>
+</html>

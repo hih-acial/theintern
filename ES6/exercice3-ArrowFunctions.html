@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+
+    // ES6 code here
+    var dog = {
+		name:"le chien",
+		toys:["baton", "balle"],
+		getToys: function(){
+			var self = this;
+			this.toys.forEach(function(toy){
+				var sentence=self.name+" joue avec 1 " + toy;
+				console.log(sentence);
+			})
+		}
+	};
+	dog.getToys();
+
+	var dog2 = {
+		name:"le chien",
+		toys:["baton", "balle"],
+		getToys: function(){
+			this.toys.forEach((toy) =>{
+				var sentence=this.name+" joue aussi avec 1 " + toy;
+				console.log(sentence);
+			})
+		}
+	};
+	dog2.getToys();
+
+
+  </script>
+  <title>ES6 practice</title>
+</head>
+<body>
+</body>
+</html>

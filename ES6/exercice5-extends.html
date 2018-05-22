@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+
+    // ES6 code here
+
+    class Personne {
+      constructor (genre, age) {
+        this.genre = genre;
+        this.age = age
+      }
+      courrir () {
+        console.log (" Je cours ");
+      }
+    }
+
+    let moi = new Personne ("homme", 26);
+    console.log(moi);
+    moi.courrir();
+
+    class Informaticien extends Personne {
+      constructor (langage) {
+        super ("femme", 26);
+        this.langage = langage;
+      }
+    }
+    var phpDev = new Informaticien ("php");
+    console.log(phpDev);
+    console.log(phpDev.__proto__);
+    console.log(phpDev.__proto__.__proto__);
+
+
+  </script>
+  <title>ES6 practice</title>
+</head>
+<body>
+</body>
+</html>

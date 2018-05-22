@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+
+    // ES6 code here
+    function* steps () {
+      console.log("step 1");
+      yield;
+      console.log("step 2");
+      yield;
+      console.log("step 3");
+      yield;
+      console.log("step 4");
+      yield;
+      console.log("last step");
+    }
+
+    let stepsIter = steps();
+/*
+    stepsIter.next();
+    stepsIter.next();
+*/
+    var handle = setInterval(function(){
+      var step = stepsIter.next();
+      if (step.done){
+        clearInterval (handle);
+      }
+      else {
+        step;
+      }
+    }, 1000);
+
+
+  </script>
+  <title>ES6 generators</title>
+</head>
+<body>
+</body>
+</html>

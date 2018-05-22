@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script>
+
+    // ES6 code here
+    var books = new Map();
+    books.set ('Nick Morgan', 'JavaScript for Kids: A Playful Introduction to Programming');
+    books.set ('Marijn Haverbeke', 'Eloquent JavaScript: A Modern Introduction to Programming');
+    books.set ('Douglas Crockford', 'JavaScript: The Good Parts');
+    books.set ('Eric Elliott', 'Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Moderns JS Libraries');
+    books.set ('David Herman', 'Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript');
+    console.log(books);
+    console.log(books.size);
+
+    console.log(books.get('Nick Morgan'));
+
+    books.forEach (function(value, key) {
+      console.log(key);
+      console.log(value);
+    })
+
+
+  </script>
+  <title>ES6 practice</title>
+</head>
+<body>
+</body>
+</html>

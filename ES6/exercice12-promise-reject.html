@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+
+    // ES6 code here
+    console.log ("Order a book : JavaScript: The Good Parts");
+    var orderPromise = new Promise ((resolve, reject)=>{
+      setTimeout(()=>{
+        reject("Your order is canceled!")
+      }, 5000)
+    });
+
+    console.log ("Waitig for book. Read JavaScript for Kids: A Playful Introduction to Programming")
+    orderPromise.then ((data)=>{
+      console.log(data);
+    }, ((err)=>{
+      console.log (err)
+    }));
+    console.log ("Continue reading")
+
+  </script>
+  <title>ES6 generators</title>
+</head>
+<body>
+</body>
+</html>
