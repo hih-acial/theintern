@@ -1,10 +1,11 @@
-'use strict'
-var fs = require('fs');
-var fileName = 'F:\\Acial\\Formation\\theintern.io\\Day02\\node\\textfile.txt';
+  'use strict'
+// Read file sync method
+const fs = require('fs');
+var fileName = 'C:/Formation/theintern_day2/nodejs/textfile.json';
 
 var data = fs.readFileSync(fileName);
-console.log(data.toString());
-
+console.log( JSON.parse(data));
+/*
 fs.readFile(fileName, 'utf8', function(err, contents) {
     console.log(contents);
 });
@@ -24,3 +25,4 @@ const getData = (fileName, type) =>
     .catch(error => console.log('Error: ', error));
 
   console.log('after calling promise');
+*/
