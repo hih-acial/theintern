@@ -1,0 +1,8 @@
+{ 
+	"browser": { 
+		"loader": { "script": "systemjs" }
+	}, 
+	"functionalSuites": "tests/functional/**/*.js",
+	"environments": [  "node", { "browserName": "chrome" } ],
+	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.37" }]}
+}
