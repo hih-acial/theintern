@@ -1,0 +1,6 @@
+<============
+Debut de fichier
+Ligne 1
+Ligne 2
+Fin du fichier
+============>
