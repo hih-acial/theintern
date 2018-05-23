@@ -10,7 +10,7 @@ const { assert } = intern.getPlugin('chai');
       test('login', ({ remote }) => {
             return remote
                   .setFindTimeout(5000)
-                  .then (login('admin', 'acial$2017'))
+                  .then ( login('admin', 'acial$2017') )
                   .findById('welcome')
                   .getVisibleText()
                   .then((text) => {
@@ -67,9 +67,9 @@ const { assert } = intern.getPlugin('chai');
             .end()
 
       });
-
-      function login(username, password) {
-            return function (login, pwd) {
+       
+      function login(login, pwd) {
+            return function () {
                 return this.parent
                         .findById('txtUsername')
                         .type(login)
