@@ -10,15 +10,7 @@ const { assert } = intern.getPlugin('chai');
       test('login', ({ remote }) => {
             return remote
                   .setFindTimeout(5000)
-                  .findById('txtUsername')
-                  .type('admin')
-                  .end()
-                  .findById('txtPassword')
-                  .type('acial$2017')
-                  .end()
-                  .findById('btnLogin')
-                  .click()
-                  .end()
+                  .then (login('admin', 'acial$2017'))
                   .findById('welcome')
                   .getVisibleText()
                   .then((text) => {
@@ -75,4 +67,20 @@ const { assert } = intern.getPlugin('chai');
             .end()
 
       });
+
+      function login(username, password) {
+            return function (login, pwd) {
+                return this.parent
+                        .findById('txtUsername')
+                        .type(login)
+                        .end()
+                        .findById('txtPassword')
+                        .type(pwd)
+                        .end()
+                        .findById('btnLogin')
+                        .click()
+
+            }
+      }
+        
 });
