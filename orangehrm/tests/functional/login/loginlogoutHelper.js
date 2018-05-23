@@ -10,7 +10,7 @@ const { assert } = intern.getPlugin('chai');
       test('login', ({ remote }) => {
             return remote
                   .setFindTimeout(5000)
-                  .then ( login('admin', 'acial$2017') )
+                  .then ( login('admin', 'acial$2017'))
                   .findById('welcome')
                   .getVisibleText()
                   .then((text) => {
@@ -35,11 +35,12 @@ const { assert } = intern.getPlugin('chai');
             .getVisibleText()
             .then((text) => {
                   console.log (text);
-                  assert.strictEqual(text, 'General Information');
+                  assert.strictEqual(text, 'General Information 11');
             })
-                  .catch((text) => {
+            .catch((err) => {
                   console.log ('object not found identified by id genInfoHeading');
-                  });
+                  console.log(err);
+            });
       });
 
       test('logout', ({ remote }) => {

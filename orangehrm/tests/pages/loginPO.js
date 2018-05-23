@@ -1,16 +1,16 @@
-
 const { assert } = intern.getPlugin('chai');
+
 module.exports = {
 
-    login: function (username, password) {
+    login: function (username, password, message) {
         return function () {
             return this.parent
                 .setFindTimeout(5000)
                 .findById('txtUsername')
-                .type('admin')
+                .type(username)
                 .end()
                 .findById('txtPassword')
-                .type('test')
+                .type(password)
                 .end()
                 .findById('btnLogin')
                 .click()
@@ -18,8 +18,8 @@ module.exports = {
                 .findById('welcome')
                 .getVisibleText()
                 .then((text) => {
-                console.log (text);
-                    assert.strictEqual(text, 'Welcome Admin');
+                    console.log (text);
+                    assert.strictEqual(text, message);
                 });
         }
     },

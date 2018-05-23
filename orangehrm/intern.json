@@ -1,5 +1,5 @@
 { 
-	"functionalSuites": "tests/functional/**/loginlogout.js",
+	"functionalSuites": "tests/functional/**/addEmployeePOData.js",
 	"environments": [  "node", { "browserName": "chrome" } ],
 	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.38" }]}
 }

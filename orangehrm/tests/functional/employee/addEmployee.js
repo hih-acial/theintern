@@ -1,15 +1,16 @@
 const { suite, test, before } = intern.getInterface('tdd');
-var auth = require('../pages/login');
+var auth = require('../../pages/loginPO');
+var employee = require('../../pages/employeePO');
 
 suite('OrangeHRM', () => {
       before(({ remote }) => {
             return remote
-                  .get('http://localhost/OrangeHRM')
+                  .get('https://www.universitedutest.com/OrangeHRM')
             });
 
       test('login', ({ remote }) => {
             return remote
-                  .then(auth.login('admin', 'test'));
+                  .then(auth.login('admin', 'acial$2017', 'Welcome Admin'));
       });
 
       test('add employee', ({ remote }) => {
