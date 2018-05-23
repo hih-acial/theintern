@@ -1,0 +1,6 @@
+{ 
+	"functionalSuites": "tests/functional/**/loginlogoutPO.js",
+	"environments": [  "node", { "browserName": "chrome" }, { "browserName": "firefox" } ],
+	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.38" }, { "name": "firefox", "version": "0.18.0" }]},
+	"reporters": {"name" : "simple"} 
+}

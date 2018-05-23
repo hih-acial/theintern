@@ -9,7 +9,7 @@ suite('OrangeHRM', () => {
 
       test('login', ({ remote }) => {
             return remote
-                  .then(auth.login('admin', 'acial$2017', 'Welcome Admin1'));
+                  .then(auth.login('admin', 'acial$2017', 'Welcome Admin'));
       });
 
       
