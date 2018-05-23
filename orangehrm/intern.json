@@ -1,8 +1,5 @@
 { 
-	"browser": { 
-		"loader": { "script": "systemjs" }
-	}, 
-	"functionalSuites": "tests/functional/**/*.js",
+	"functionalSuites": "tests/functional/**/LoginLogoutSync.js",
 	"environments": [  "node", { "browserName": "chrome" } ],
-	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.37" }]}
+	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.38" }]}
 }
