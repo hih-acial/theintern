@@ -4,7 +4,7 @@ const { assert } = intern.getPlugin('chai');
       suite('OrangeHRM', () => {
       before(({ remote }) => {
             return remote
-                  .get('https://www.universitedutest.com/OrangeHRM')
+                  .get('http://localhost/OrangeHRM')
       });
 
       test('login', ({ remote }) => {
@@ -14,7 +14,7 @@ const { assert } = intern.getPlugin('chai');
                   .type('admin')
                   .end()
                   .findById('txtPassword')
-                  .type('acial$2017')
+                  .type('test')
                   .end()
                   .findById('btnLogin')
                   .click()

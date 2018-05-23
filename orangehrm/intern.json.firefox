@@ -1,5 +1,0 @@
-{ 
-	"functionalSuites": "tests/functional/**/*.js",
-	"environments": [  "node", { "browserName": "firefox" } ],
-	"tunnelOptions": {"drivers": [{ "name": "firefox" }]}
-}

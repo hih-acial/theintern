@@ -1,0 +1,5 @@
+{ 
+	"functionalSuites": "tests/functional/**/loginlogout.js",
+	"environments": [  "node", { "browserName": "firefox"} ],
+	"tunnelOptions": {"drivers": [{ "name": "firefox", "version": "0.18.0" }]}
+}
