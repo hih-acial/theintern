@@ -1,0 +1,887 @@
+2018-05-27T00:21:21.302Z - info: Start test suite
+2018-05-27T00:21:22.232Z - info: Start test login
+2018-05-27T00:21:22.241Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:21:22.242Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:21:22.243Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:21:22.250Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:21:22.250Z - info: Object found by id :txtUsername
+2018-05-27T00:21:22.327Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:21:22.327Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:21:22.327Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:21:22.328Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:21:22.329Z - info: Object found by id :txtPassword
+2018-05-27T00:21:22.402Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:21:22.402Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:21:22.402Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:21:22.402Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:21:22.403Z - info: Object found by id :btnLogin
+2018-05-27T00:21:23.738Z - info: Start test navigate
+2018-05-27T00:21:23.738Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:21:23.739Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:21:23.739Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:21:23.739Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:21:23.739Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:21:24.889Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:21:24.890Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:21:24.890Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:21:24.891Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:21:24.891Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:21:25.387Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:21:25.388Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:21:25.388Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:21:25.389Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:21:25.389Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:21:26.122Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:21:26.122Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:21:26.122Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:21:26.123Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:21:26.123Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:21:26.726Z - info: Start test searchEmployee
+2018-05-27T00:21:26.727Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:21:26.728Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:21:26.728Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:21:26.729Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:21:26.729Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:21:27.533Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:21:27.533Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:21:27.534Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:21:27.536Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:21:27.536Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:21:28.124Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:21:28.124Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:21:28.124Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:21:28.125Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:21:28.125Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:21:31.388Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:21:31.389Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:21:31.389Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:21:31.389Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:21:31.390Z - info: Object found by id :searchBtn
+2018-05-27T00:21:31.923Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:21:31.924Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:21:31.925Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:21:31.927Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:21:31.927Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:21:32.959Z - info: Start test logout
+2018-05-27T00:21:32.960Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:21:32.960Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:21:32.960Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:21:32.961Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:21:32.961Z - info: Object found by id :welcome
+2018-05-27T00:21:33.078Z - info: Call to function : click - Home - Logout
+2018-05-27T00:21:33.078Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:21:33.079Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:21:33.081Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:21:33.081Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T00:23:20.308Z - info: Start test suite
+2018-05-27T00:23:21.140Z - info: Start test login
+2018-05-27T00:23:21.150Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:23:21.151Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:23:21.151Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:23:21.157Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:23:21.157Z - info: Object found by id :txtUsername
+2018-05-27T00:23:21.225Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:23:21.225Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:23:21.225Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:23:21.226Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:23:21.226Z - info: Object found by id :txtPassword
+2018-05-27T00:23:21.292Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:23:21.293Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:23:21.293Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:23:21.294Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:23:21.294Z - info: Object found by id :btnLogin
+2018-05-27T00:23:22.568Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T00:23:22.570Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:23:22.570Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:23:22.571Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:23:22.571Z - info: Object found by id :welcome
+2018-05-27T00:23:22.600Z - info: Start test navigate
+2018-05-27T00:23:22.601Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:23:22.601Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:23:22.601Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:23:22.602Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:23:22.602Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:23:23.732Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:23:23.732Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:23:23.732Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:23:23.733Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:23:23.733Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:23:24.235Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:23:24.235Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:23:24.236Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:23:24.237Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:23:24.237Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:23:24.955Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:23:24.955Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:23:24.956Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:23:24.956Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:23:24.956Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:23:25.608Z - info: Start test searchEmployee
+2018-05-27T00:23:25.609Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:23:25.609Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:23:25.609Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:23:25.611Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:23:25.616Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:23:26.504Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:23:26.506Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:23:26.508Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:23:26.509Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:23:26.509Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:23:27.103Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:23:27.103Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:23:27.104Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:23:27.105Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:23:27.105Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:23:30.315Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:23:30.315Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:23:30.316Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:23:30.317Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:23:30.317Z - info: Object found by id :searchBtn
+2018-05-27T00:23:30.888Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:23:30.889Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:23:30.889Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:23:30.891Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:23:30.891Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:23:31.945Z - info: Start test logout
+2018-05-27T00:23:31.945Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:23:31.947Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:23:31.948Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:23:31.948Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:23:31.949Z - info: Object found by id :welcome
+2018-05-27T00:23:32.058Z - info: Call to function : click - Home - Logout
+2018-05-27T00:23:32.061Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:23:32.066Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:23:32.068Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:23:32.069Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T00:24:25.155Z - info: Start test suite
+2018-05-27T00:24:26.073Z - info: Start test login
+2018-05-27T00:24:26.083Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:24:26.084Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:24:26.084Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:24:26.088Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:24:26.089Z - info: Object found by id :txtUsername
+2018-05-27T00:24:26.154Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:24:26.155Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:24:26.156Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:24:26.156Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:24:26.165Z - info: Object found by id :txtPassword
+2018-05-27T00:24:26.225Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:24:26.225Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:24:26.226Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:24:26.226Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:24:26.227Z - info: Object found by id :btnLogin
+2018-05-27T00:24:27.506Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T00:24:27.507Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:24:27.507Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:24:27.508Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:24:27.508Z - info: Object found by id :welcome
+2018-05-27T00:24:27.548Z - info: Start test navigate
+2018-05-27T00:24:27.548Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:24:27.549Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:24:27.549Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:24:27.549Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:24:27.549Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:24:28.848Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:24:28.850Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:24:28.851Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:24:28.852Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:24:28.852Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:24:29.383Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:24:29.383Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:24:29.383Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:24:29.384Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:24:29.384Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:24:30.099Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:24:30.101Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:24:30.102Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:24:30.102Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:24:30.103Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:24:30.716Z - info: Start test searchEmployee
+2018-05-27T00:24:30.717Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:24:30.717Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:24:30.717Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:24:30.718Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:24:30.718Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:24:31.503Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:24:31.503Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:24:31.504Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:24:31.505Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:24:31.506Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:24:32.108Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:24:32.109Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:24:32.109Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:24:32.110Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:24:32.111Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:24:35.348Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:24:35.348Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:24:35.349Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:24:35.350Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:24:35.351Z - info: Object found by id :searchBtn
+2018-05-27T00:24:35.907Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:24:35.908Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:24:35.908Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:24:35.908Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:24:35.909Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:24:36.821Z - info: Start test logout
+2018-05-27T00:24:36.823Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:24:36.823Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:24:36.823Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:24:36.823Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:24:36.824Z - info: Object found by id :welcome
+2018-05-27T00:24:36.936Z - info: Call to function : click - Home - Logout
+2018-05-27T00:24:36.936Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:24:36.937Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:24:36.938Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:24:36.940Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T00:25:07.820Z - info: Start test suite
+2018-05-27T00:25:08.625Z - info: Start test login
+2018-05-27T00:25:08.632Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:25:08.633Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:25:08.633Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:25:08.637Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:25:08.638Z - info: Object found by id :txtUsername
+2018-05-27T00:25:08.707Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:25:08.708Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:25:08.708Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:25:08.709Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:25:08.709Z - info: Object found by id :txtPassword
+2018-05-27T00:25:08.776Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:25:08.776Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:25:08.776Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:25:08.777Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:25:08.777Z - info: Object found by id :btnLogin
+2018-05-27T00:25:10.037Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T00:25:10.037Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:25:10.037Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:25:10.038Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:25:10.038Z - info: Object found by id :welcome
+2018-05-27T00:25:10.095Z - info: Start test navigate
+2018-05-27T00:25:10.095Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:10.095Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:10.095Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:10.096Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:10.096Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:25:11.198Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:25:11.198Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:25:11.199Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:25:11.199Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:25:11.199Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:25:11.730Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:11.730Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:11.731Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:11.731Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:11.732Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:25:12.693Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:25:12.693Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:25:12.694Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:25:12.694Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:25:12.695Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:25:13.358Z - info: Start test searchEmployee
+2018-05-27T00:25:13.358Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:13.359Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:13.359Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:13.360Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:13.361Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:25:14.162Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:25:14.162Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:25:14.163Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:25:14.163Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:25:14.163Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:25:14.775Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:25:14.777Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:25:14.779Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:25:14.780Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:25:14.782Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:25:18.026Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:25:18.027Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:25:18.028Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:25:18.029Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:25:18.030Z - info: Object found by id :searchBtn
+2018-05-27T00:25:18.612Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:25:18.613Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:25:18.614Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:25:18.615Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:25:18.617Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:25:19.555Z - info: Start test logout
+2018-05-27T00:25:19.555Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:25:19.555Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:25:19.555Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:25:19.556Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:25:19.556Z - info: Object found by id :welcome
+2018-05-27T00:25:19.671Z - info: Call to function : click - Home - Logout
+2018-05-27T00:25:19.671Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:25:19.671Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:25:19.672Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:25:19.672Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T00:25:54.533Z - info: Start test suite
+2018-05-27T00:25:55.381Z - info: Start test login
+2018-05-27T00:25:55.390Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:25:55.391Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:25:55.391Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:25:55.397Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:25:55.397Z - info: Object found by id :txtUsername
+2018-05-27T00:25:55.470Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:25:55.470Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:25:55.470Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:25:55.471Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:25:55.471Z - info: Object found by id :txtPassword
+2018-05-27T00:25:55.539Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:25:55.539Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:25:55.539Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:25:55.539Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:25:55.540Z - info: Object found by id :btnLogin
+2018-05-27T00:25:56.855Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T00:25:56.855Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:25:56.856Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:25:56.856Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:25:56.856Z - info: Object found by id :welcome
+2018-05-27T00:25:56.913Z - info: Start test navigate
+2018-05-27T00:25:56.913Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:56.913Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:56.913Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:56.914Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:56.914Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:25:58.013Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:25:58.014Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:25:58.014Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:25:58.015Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:25:58.015Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:25:58.534Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:58.534Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:58.534Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:58.535Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:58.536Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:25:59.299Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:25:59.300Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:25:59.300Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:25:59.301Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:25:59.302Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:25:59.878Z - info: Start test searchEmployee
+2018-05-27T00:25:59.878Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:25:59.879Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:25:59.879Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:25:59.880Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:25:59.880Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:26:00.672Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:26:00.673Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:26:00.673Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:26:00.674Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:26:00.674Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:26:01.290Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:26:01.290Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:26:01.290Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:26:01.291Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:26:01.291Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:26:04.522Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:04.523Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:04.523Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:04.524Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:26:04.525Z - info: Object found by id :searchBtn
+2018-05-27T00:26:05.089Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:05.090Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:05.090Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:05.091Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:26:05.091Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:26:06.267Z - info: Start test logout
+2018-05-27T00:26:06.268Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:26:06.268Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:26:06.268Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:26:06.269Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:26:06.269Z - info: Object found by id :welcome
+2018-05-27T00:26:06.373Z - info: Call to function : click - Home - Logout
+2018-05-27T00:26:06.373Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:26:06.373Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:26:06.374Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:26:06.375Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T00:26:25.754Z - info: Start test suite
+2018-05-27T00:26:26.542Z - info: Start test login
+2018-05-27T00:26:26.552Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T00:26:26.553Z - info: Call to function : findObject - Authentication - login
+2018-05-27T00:26:26.553Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T00:26:26.559Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T00:26:26.559Z - info: Object found by id :txtUsername
+2018-05-27T00:26:26.629Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T00:26:26.629Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T00:26:26.629Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T00:26:26.630Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T00:26:26.630Z - info: Object found by id :txtPassword
+2018-05-27T00:26:26.695Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T00:26:26.695Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T00:26:26.695Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T00:26:26.696Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T00:26:26.697Z - info: Object found by id :btnLogin
+2018-05-27T00:26:28.068Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Adminm
+2018-05-27T00:26:28.071Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:26:28.071Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:26:28.072Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:26:28.072Z - info: Object found by id :welcome
+2018-05-27T00:26:28.141Z - info: Start test navigate
+2018-05-27T00:26:28.142Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:26:28.142Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:26:28.142Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:26:28.143Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:26:28.143Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:26:29.254Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T00:26:29.254Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T00:26:29.254Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T00:26:29.255Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T00:26:29.255Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T00:26:29.800Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:26:29.801Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:26:29.801Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:26:29.802Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:26:29.802Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:26:30.529Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:26:30.530Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:26:30.530Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:26:30.531Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:26:30.531Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:26:31.133Z - info: Start test searchEmployee
+2018-05-27T00:26:31.134Z - info: Call to function : click - Menu - PIM
+2018-05-27T00:26:31.135Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T00:26:31.135Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T00:26:31.136Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T00:26:31.136Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T00:26:31.932Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T00:26:31.933Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T00:26:31.935Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T00:26:31.936Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T00:26:31.936Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T00:26:32.559Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T00:26:32.564Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T00:26:32.565Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T00:26:32.565Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T00:26:32.566Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T00:26:35.786Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:35.786Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:35.787Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T00:26:35.787Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T00:26:35.788Z - info: Object found by id :searchBtn
+2018-05-27T00:26:36.357Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:36.358Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:36.358Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T00:26:36.359Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T00:26:36.360Z - info: Object found by xpath ://td[4]/a
+2018-05-27T00:26:37.288Z - info: Start test logout
+2018-05-27T00:26:37.288Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T00:26:37.288Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T00:26:37.288Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T00:26:37.289Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T00:26:37.289Z - info: Object found by id :welcome
+2018-05-27T00:26:37.402Z - info: Call to function : click - Home - Logout
+2018-05-27T00:26:37.402Z - info: Call to function : findObject - Home - Logout
+2018-05-27T00:26:37.402Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T00:26:37.403Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T00:26:37.404Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T08:34:50.963Z - info: Start test suite
+2018-05-27T08:34:52.029Z - info: Start test login
+2018-05-27T08:34:52.038Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T08:34:52.039Z - info: Call to function : findObject - Authentication - login
+2018-05-27T08:34:52.039Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T08:34:52.044Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T08:34:52.045Z - info: Object found by id :txtUsername
+2018-05-27T08:34:52.125Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T08:34:52.126Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T08:34:52.126Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T08:34:52.126Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T08:34:52.127Z - info: Object found by id :txtPassword
+2018-05-27T08:34:52.203Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T08:34:52.204Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T08:34:52.204Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T08:34:52.204Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T08:34:52.204Z - info: Object found by id :btnLogin
+2018-05-27T08:34:53.785Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Adminm
+2018-05-27T08:34:53.786Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T08:34:53.786Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T08:34:53.786Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T08:34:53.787Z - info: Object found by id :welcome
+2018-05-27T08:34:53.861Z - info: Start test navigate
+2018-05-27T08:34:53.861Z - info: Call to function : click - Menu - PIM
+2018-05-27T08:34:53.862Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T08:34:53.862Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T08:34:53.862Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T08:34:53.863Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T08:34:54.971Z - info: Call to function : click - Menu - PIM_AddEmployee
+2018-05-27T08:34:54.971Z - info: Call to function : findObject - Menu - PIM_AddEmployee
+2018-05-27T08:34:54.972Z - info: Call to function : domSearch - Menu - PIM_AddEmployee
+2018-05-27T08:34:54.972Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_addEmployee -  -  - 
+2018-05-27T08:34:54.972Z - info: Object found by id :menu_pim_addEmployee
+2018-05-27T08:34:55.498Z - info: Call to function : click - Menu - PIM
+2018-05-27T08:34:55.498Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T08:34:55.500Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T08:34:55.500Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T08:34:55.501Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T08:34:56.308Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T08:34:56.309Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T08:34:56.309Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T08:34:56.310Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T08:34:56.310Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T08:34:56.928Z - info: Start test searchEmployee
+2018-05-27T08:34:56.929Z - info: Call to function : click - Menu - PIM
+2018-05-27T08:34:56.929Z - info: Call to function : findObject - Menu - PIM
+2018-05-27T08:34:56.929Z - info: Call to function : domSearch - Menu - PIM
+2018-05-27T08:34:56.930Z - info: Call to function : getElement id/xpath/name/css :  -  -  -  - #menu_pim_viewPimModule > b
+2018-05-27T08:34:56.930Z - info: Object found by css :#menu_pim_viewPimModule > b
+2018-05-27T08:34:57.738Z - info: Call to function : click - Menu - PIM_EmployeeList
+2018-05-27T08:34:57.738Z - info: Call to function : findObject - Menu - PIM_EmployeeList
+2018-05-27T08:34:57.739Z - info: Call to function : domSearch - Menu - PIM_EmployeeList
+2018-05-27T08:34:57.740Z - info: Call to function : getElement id/xpath/name/css :  - menu_pim_viewEmployeeList -  -  - 
+2018-05-27T08:34:57.740Z - info: Object found by id :menu_pim_viewEmployeeList
+2018-05-27T08:34:58.370Z - info: Call to function : autocomplete - PIM_EmployeeList - EmployeeName - IMHAH
+2018-05-27T08:34:58.371Z - info: Call to function : findObject - PIM_EmployeeList - EmployeeName
+2018-05-27T08:34:58.371Z - info: Call to function : domSearch - PIM_EmployeeList - EmployeeName
+2018-05-27T08:34:58.373Z - info: Call to function : getElement id/xpath/name/css :  - empsearch_employee_name_empName -  -  - 
+2018-05-27T08:34:58.373Z - info: Object found by id :empsearch_employee_name_empName
+2018-05-27T08:35:01.727Z - info: Call to function : click - PIM_EmployeeList - SearchBtn
+2018-05-27T08:35:01.728Z - info: Call to function : findObject - PIM_EmployeeList - SearchBtn
+2018-05-27T08:35:01.728Z - info: Call to function : domSearch - PIM_EmployeeList - SearchBtn
+2018-05-27T08:35:01.731Z - info: Call to function : getElement id/xpath/name/css :  - searchBtn -  -  - 
+2018-05-27T08:35:01.731Z - info: Object found by id :searchBtn
+2018-05-27T08:35:02.378Z - info: Call to function : click - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T08:35:02.383Z - info: Call to function : findObject - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T08:35:02.384Z - info: Call to function : domSearch - PIM_EmployeeList - Ligne1_Nom
+2018-05-27T08:35:02.385Z - info: Call to function : getElement id/xpath/name/css :  -  - //td[4]/a -  - 
+2018-05-27T08:35:02.385Z - info: Object found by xpath ://td[4]/a
+2018-05-27T08:35:03.447Z - info: Start test logout
+2018-05-27T08:35:03.447Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T08:35:03.447Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T08:35:03.448Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T08:35:03.448Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T08:35:03.448Z - info: Object found by id :welcome
+2018-05-27T08:35:03.560Z - info: Call to function : click - Home - Logout
+2018-05-27T08:35:03.561Z - info: Call to function : findObject - Home - Logout
+2018-05-27T08:35:03.562Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T08:35:03.562Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T08:35:03.563Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T16:47:07.760Z - info: Start test suite
+2018-05-27T16:48:50.811Z - info: Start test suite
+2018-05-27T16:49:22.047Z - info: Start test suite
+2018-05-27T16:49:23.007Z - info: Start test login
+2018-05-27T16:49:23.015Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T16:49:23.018Z - info: Call to function : findObject - Authentication - login
+2018-05-27T16:49:23.018Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T16:49:23.028Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T16:49:23.030Z - info: Object found by id :txtUsername
+2018-05-27T16:49:23.112Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T16:49:23.112Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T16:49:23.112Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T16:49:23.113Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T16:49:23.113Z - info: Object found by id :txtPassword
+2018-05-27T16:49:23.192Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T16:49:23.193Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T16:49:23.193Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T16:49:23.193Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T16:49:23.193Z - info: Object found by id :btnLogin
+2018-05-27T16:49:26.987Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Adminm
+2018-05-27T16:49:26.990Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:49:26.990Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:49:26.991Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:49:26.991Z - info: Object found by id :welcome
+2018-05-27T16:49:27.077Z - info: Start test logout
+2018-05-27T16:49:27.078Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T16:49:27.078Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:49:27.078Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:49:27.079Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:49:27.079Z - info: Object found by id :welcome
+2018-05-27T16:49:27.218Z - info: Call to function : click - Home - Logout
+2018-05-27T16:49:27.220Z - info: Call to function : findObject - Home - Logout
+2018-05-27T16:49:27.221Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T16:49:27.222Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T16:49:27.223Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T16:50:00.254Z - info: Start test suite
+2018-05-27T16:50:01.142Z - info: Start test login
+2018-05-27T16:50:01.149Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T16:50:01.150Z - info: Call to function : findObject - Authentication - login
+2018-05-27T16:50:01.151Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T16:50:01.157Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T16:50:01.157Z - info: Object found by id :txtUsername
+2018-05-27T16:50:01.231Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T16:50:01.231Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T16:50:01.232Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T16:50:01.232Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T16:50:01.232Z - info: Object found by id :txtPassword
+2018-05-27T16:50:01.307Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T16:50:01.307Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T16:50:01.307Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T16:50:01.308Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T16:50:01.308Z - info: Object found by id :btnLogin
+2018-05-27T16:50:02.645Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T16:50:02.645Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:50:02.645Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:50:02.646Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:50:02.646Z - info: Object found by id :welcome
+2018-05-27T16:50:02.721Z - info: Start test logout
+2018-05-27T16:50:02.721Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T16:50:02.721Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:50:02.721Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:50:02.722Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:50:02.722Z - info: Object found by id :welcome
+2018-05-27T16:50:02.845Z - info: Call to function : click - Home - Logout
+2018-05-27T16:50:02.846Z - info: Call to function : findObject - Home - Logout
+2018-05-27T16:50:02.846Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T16:50:02.846Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T16:50:02.846Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T16:57:34.535Z - info: Start test suite
+2018-05-27T16:57:35.441Z - info: Start test login
+2018-05-27T16:57:35.449Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T16:57:35.450Z - info: Call to function : findObject - Authentication - login
+2018-05-27T16:57:35.450Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T16:57:35.455Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T16:57:35.455Z - info: Object found by id :txtUsername
+2018-05-27T16:57:35.536Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T16:57:35.536Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T16:57:35.536Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T16:57:35.537Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T16:57:35.537Z - info: Object found by id :txtPassword
+2018-05-27T16:57:35.603Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T16:57:35.603Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T16:57:35.603Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T16:57:35.604Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T16:57:35.604Z - info: Object found by id :btnLogin
+2018-05-27T16:57:36.919Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T16:57:36.919Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:57:36.920Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:57:36.920Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:57:36.920Z - info: Object found by id :welcome
+2018-05-27T16:57:37.002Z - info: Start test logout
+2018-05-27T16:57:37.003Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T16:57:37.003Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T16:57:37.003Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T16:57:37.004Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T16:57:37.005Z - info: Object found by id :welcome
+2018-05-27T16:57:37.145Z - info: Call to function : click - Home - Logout
+2018-05-27T16:57:37.146Z - info: Call to function : findObject - Home - Logout
+2018-05-27T16:57:37.146Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T16:57:37.147Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T16:57:37.147Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T16:59:59.321Z - info: Start test suite
+2018-05-27T17:00:00.186Z - info: Start test login
+2018-05-27T17:00:00.197Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:00:00.198Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:00:00.199Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:00:00.204Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:00:00.206Z - info: Object found by id :txtUsername
+2018-05-27T17:00:00.294Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:00:00.296Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:00:00.296Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:00:00.297Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:00:00.297Z - info: Object found by id :txtPassword
+2018-05-27T17:00:00.365Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:00:00.365Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:00:00.366Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:00:00.366Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:00:00.366Z - info: Object found by id :btnLogin
+2018-05-27T17:00:01.654Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:00:01.655Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:00:01.656Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:00:01.656Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:00:01.656Z - info: Object found by id :welcome
+2018-05-27T17:00:07.008Z - info: Start test logout
+2018-05-27T17:00:07.009Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T17:00:07.009Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:00:07.009Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:00:07.009Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:00:07.009Z - info: Object found by id :welcome
+2018-05-27T17:00:07.103Z - info: Call to function : click - Home - Logout
+2018-05-27T17:00:07.104Z - info: Call to function : findObject - Home - Logout
+2018-05-27T17:00:07.104Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T17:00:07.105Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T17:00:07.105Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T17:02:14.441Z - info: Start test suite
+2018-05-27T17:02:15.254Z - info: Start test login
+2018-05-27T17:02:15.268Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:02:15.269Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:02:15.269Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:02:15.275Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:02:15.275Z - info: Object found by id :txtUsername
+2018-05-27T17:02:15.349Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:02:15.350Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:02:15.350Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:02:15.350Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:02:15.351Z - info: Object found by id :txtPassword
+2018-05-27T17:02:15.408Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:02:15.408Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:02:15.408Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:02:15.408Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:02:15.409Z - info: Object found by id :btnLogin
+2018-05-27T17:02:16.727Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:02:16.728Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:02:16.728Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:02:16.729Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:02:16.729Z - info: Object found by id :welcome
+2018-05-27T17:03:13.989Z - info: Start test suite
+2018-05-27T17:03:14.876Z - info: Start test login
+2018-05-27T17:03:14.888Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:03:14.888Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:03:14.889Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:03:14.894Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:03:14.895Z - info: Object found by id :txtUsername
+2018-05-27T17:03:14.983Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:03:14.984Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:03:14.984Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:03:14.985Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:03:14.985Z - info: Object found by id :txtPassword
+2018-05-27T17:03:15.058Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:03:15.058Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:03:15.058Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:03:15.059Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:03:15.059Z - info: Object found by id :btnLogin
+2018-05-27T17:03:16.324Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:03:16.325Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:03:16.325Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:03:16.326Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:03:16.326Z - info: Object found by id :welcome
+2018-05-27T17:03:36.649Z - info: Start test logout
+2018-05-27T17:03:36.649Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T17:03:36.649Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:03:36.649Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:03:36.650Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:03:36.650Z - info: Object found by id :welcome
+2018-05-27T17:03:36.788Z - info: Call to function : click - Home - Logout
+2018-05-27T17:03:36.788Z - info: Call to function : findObject - Home - Logout
+2018-05-27T17:03:36.788Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T17:03:36.789Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T17:03:36.790Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T17:03:54.382Z - info: Start test suite
+2018-05-27T17:03:55.238Z - info: Start test login
+2018-05-27T17:03:55.254Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:03:55.255Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:03:55.255Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:03:55.260Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:03:55.260Z - info: Object found by id :txtUsername
+2018-05-27T17:03:55.324Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:03:55.324Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:03:55.324Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:03:55.325Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:03:55.325Z - info: Object found by id :txtPassword
+2018-05-27T17:03:55.390Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:03:55.390Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:03:55.391Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:03:55.391Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:03:55.391Z - info: Object found by id :btnLogin
+2018-05-27T17:03:56.715Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:03:56.716Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:03:56.716Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:03:56.717Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:03:56.717Z - info: Object found by id :welcome
+2018-05-27T17:03:58.576Z - info: Start test logout
+2018-05-27T17:03:58.576Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T17:03:58.576Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:03:58.576Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:03:58.577Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:03:58.577Z - info: Object found by id :welcome
+2018-05-27T17:03:58.725Z - info: Call to function : click - Home - Logout
+2018-05-27T17:03:58.725Z - info: Call to function : findObject - Home - Logout
+2018-05-27T17:03:58.725Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T17:03:58.726Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T17:03:58.726Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T17:04:44.680Z - info: Start test suite
+2018-05-27T17:04:45.732Z - info: Start test login
+2018-05-27T17:04:45.742Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:04:45.742Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:04:45.743Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:04:45.748Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:04:45.749Z - info: Object found by id :txtUsername
+2018-05-27T17:04:45.832Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:04:45.833Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:04:45.833Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:04:45.834Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:04:45.834Z - info: Object found by id :txtPassword
+2018-05-27T17:04:45.920Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:04:45.920Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:04:45.921Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:04:45.921Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:04:45.921Z - info: Object found by id :btnLogin
+2018-05-27T17:04:47.221Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:04:47.222Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:04:47.222Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:04:47.223Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:04:47.223Z - info: Object found by id :welcome
+2018-05-27T17:04:49.366Z - info: Start test logout
+2018-05-27T17:04:49.366Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T17:04:49.366Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:04:49.367Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:04:49.367Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:04:49.367Z - info: Object found by id :welcome
+2018-05-27T17:04:49.493Z - info: Call to function : click - Home - Logout
+2018-05-27T17:04:49.493Z - info: Call to function : findObject - Home - Logout
+2018-05-27T17:04:49.493Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T17:04:49.494Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T17:04:49.494Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T17:05:13.730Z - info: Start test suite
+2018-05-27T17:05:14.705Z - info: Start test login
+2018-05-27T17:05:14.715Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:05:14.716Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:05:14.717Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:05:14.722Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:05:14.723Z - info: Object found by id :txtUsername
+2018-05-27T17:05:14.804Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:05:14.805Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:05:14.805Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:05:14.806Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:05:14.806Z - info: Object found by id :txtPassword
+2018-05-27T17:05:14.871Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:05:14.871Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:05:14.871Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:05:14.872Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:05:14.872Z - info: Object found by id :btnLogin
+2018-05-27T17:05:16.173Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:05:16.174Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:05:16.174Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:05:16.175Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:05:16.175Z - info: Object found by id :welcome
+2018-05-27T17:06:30.825Z - info: Start test logout
+2018-05-27T17:06:30.826Z - info: Call to function : click - Home - WelcomeMenu
+2018-05-27T17:06:30.826Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:06:30.826Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:06:30.827Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:06:30.827Z - info: Object found by id :welcome
+2018-05-27T17:06:30.961Z - info: Call to function : click - Home - Logout
+2018-05-27T17:06:30.961Z - info: Call to function : findObject - Home - Logout
+2018-05-27T17:06:30.962Z - info: Call to function : domSearch - Home - Logout
+2018-05-27T17:06:30.963Z - info: Call to function : getElement id/xpath/name/css :  -  - //a[contains(@href, 'auth/logout')] -  - 
+2018-05-27T17:06:30.963Z - info: Object found by xpath ://a[contains(@href, 'auth/logout')]
+2018-05-27T17:06:43.213Z - info: Start test suite
+2018-05-27T17:06:44.099Z - info: Start test login
+2018-05-27T17:06:44.110Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:06:44.111Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:06:44.111Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:06:44.118Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:06:44.118Z - info: Object found by id :txtUsername
+2018-05-27T17:06:44.188Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:06:44.188Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:06:44.189Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:06:44.189Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:06:44.189Z - info: Object found by id :txtPassword
+2018-05-27T17:06:44.248Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:06:44.249Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:06:44.249Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:06:44.250Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:06:44.250Z - info: Object found by id :btnLogin
+2018-05-27T17:06:45.488Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:06:45.489Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:06:45.489Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:06:45.490Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:06:45.490Z - info: Object found by id :welcome
+2018-05-27T17:10:25.498Z - info: Start test suite
+2018-05-27T17:10:26.323Z - info: Start test login
+2018-05-27T17:10:26.333Z - info: Call to function : type - Authentication - login - Admin
+2018-05-27T17:10:26.334Z - info: Call to function : findObject - Authentication - login
+2018-05-27T17:10:26.334Z - info: Call to function : domSearch - Authentication - login
+2018-05-27T17:10:26.338Z - info: Call to function : getElement id/xpath/name/css :  - txtUsername -  - txtUsername - 
+2018-05-27T17:10:26.339Z - info: Object found by id :txtUsername
+2018-05-27T17:10:26.405Z - info: Call to function : type - Authentication - pwd - test
+2018-05-27T17:10:26.405Z - info: Call to function : findObject - Authentication - pwd
+2018-05-27T17:10:26.406Z - info: Call to function : domSearch - Authentication - pwd
+2018-05-27T17:10:26.406Z - info: Call to function : getElement id/xpath/name/css :  - txtPassword -  -  - 
+2018-05-27T17:10:26.407Z - info: Object found by id :txtPassword
+2018-05-27T17:10:26.467Z - info: Call to function : click - Authentication - btnLogin
+2018-05-27T17:10:26.467Z - info: Call to function : findObject - Authentication - btnLogin
+2018-05-27T17:10:26.467Z - info: Call to function : domSearch - Authentication - btnLogin
+2018-05-27T17:10:26.468Z - info: Call to function : getElement id/xpath/name/css :  - btnLogin -  -  - 
+2018-05-27T17:10:26.468Z - info: Object found by id :btnLogin
+2018-05-27T17:10:27.793Z - info: Call to function : verifyText - Home - WelcomeMenu - Welcome Admin
+2018-05-27T17:10:27.795Z - info: Call to function : findObject - Home - WelcomeMenu
+2018-05-27T17:10:27.795Z - info: Call to function : domSearch - Home - WelcomeMenu
+2018-05-27T17:10:27.796Z - info: Call to function : getElement id/xpath/name/css :  - welcome -  -  - 
+2018-05-27T17:10:27.796Z - info: Object found by id :welcome

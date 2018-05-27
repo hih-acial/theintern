@@ -1,0 +1,5 @@
+{ 
+	"functionalSuites": "tests/functional/**/essai.js",
+	"environments": [  "node", { "browserName": "chrome" } ],
+	"tunnelOptions": {"drivers": [{ "name": "chrome", "version": "2.38" }]} 
+}

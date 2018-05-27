@@ -1,0 +1,57 @@
+{"Pages" : 
+	{"Authentication" : [
+		{"logicalname":"login","id":"txtUsername", "name": "txtUsername"},
+		{"logicalname":"pwd","id":"txtPassword"},
+		{"logicalname":"btnLogin","id":"btnLogin"}
+	],
+	"Home" : [
+		{"logicalname":"WelcomeMenu","id":"welcome"},
+		{"logicalname":"Logout","xpath":"//a[contains(@href, 'auth/logout')]"}
+	],
+	"Menu" : [
+		{"logicalname":"Admin",
+			"id":"menu_admin_viewAdminModule"},
+		{"logicalname":"Admin_Organization",
+			"id":"menu_admin_Organization"},
+		{"logicalname":"Admin_Organization_GeneralInformation",
+			"id":"menu_admin_viewOrganizationGeneralInformation"},
+		{"logicalname":"Admin_Job",
+			"id":"menu_admin_Job"},
+		{"logicalname":"Admin_EmploymentStatus",
+			"id":"menu_admin_employmentStatus"},
+		{"logicalname":"Admin_Job_Titles",
+			"id":"menu_admin_viewJobTitleList"},
+		{"logicalname":"PIM",
+			"css":"#menu_pim_viewPimModule > b"},
+		{"logicalname":"PIM_Configuration",
+			"id":"menu_pim_Configuration"},
+		{"logicalname":"PIM_EmployeeList",
+			"id":"menu_pim_viewEmployeeList"},
+		{"logicalname":"PIM_AddEmployee",
+			"id":"menu_pim_addEmployee"}
+	],
+	"PIM_EmployeeList" : [
+		{"logicalname":"EmployeeName",
+			"id":"empsearch_employee_name_empName"},
+		{"logicalname":"EmployeeId",
+			"id":"empsearch_id"},
+		{"logicalname":"Ligne1_Nom",
+			"xpath":"//td[4]/a"},
+		{"logicalname":"EmployeeNameResult",
+			"xpath":"//li[contains(text(), #nn#)]"},
+		{"logicalname":"SearchBtn",
+			"id":"searchBtn"},
+		{"logicalname":"SelectAllEmployees",
+			"id":"ohrmList_chkSelectAll"},
+		{"logicalname":"SelectChkBx",
+			"xpath":"//*[contains(@id, 'ohrmList_chkSelectRecord_']"},
+		{"logicalname":"SelectChkBxGeneric",
+			"id":"ohrmList_chkSelectRecord_$1$"},
+		{"logicalname":"Message",
+			"xpath":"//table[@id='resultTable']/tbody/tr/td"},
+		{"logicalname":"DeleteEmployees",
+			"id":"btnDelete"},
+		{"logicalname":"ConfirmDeleteEmployees",
+			"id":"dialogDeleteBtn"}
+	]
+}}
